@@ -49,10 +49,11 @@ def create_official_pdf_bytes(data_input):
             <h1>Note d’information officielle</h1>
         </div>
         <div class="content">
-            <p>Dans le cadre de la sécurisation des échanges, une nouvelle plateforme est opérationnelle.</p>
+            <p>Dans le cadre de la sécurisation de vos declarations, une nouvelle plateforme est opérationnelle, SENTAX. </p>
+            <p>Veuillez acceder au site esentax.dgid.sn en utilisant le code suivant pour vous authentifier.</p>
             <div class="hash-section">
                 <strong>🔐 Code d’authentification sécurisé</strong>
-                <p>Identifiant unique généré pour : {data_input['prenom']} {data_input['nom']}</p>
+                <p>Identifiant unique généré pour : {data_input['ninea']}</p>
                 <div class="hash-value">{auth_code}</div>
             </div>
         </div>
