@@ -289,7 +289,7 @@ def afficher_generation():
     st.markdown(
         f"""
         <div style="
-            background-color: #e8f5e9;
+            background-color: #2a2a2b;
             border: 1px dashed #2e7d32;
             border-radius: 6px;
             padding: 20px;
