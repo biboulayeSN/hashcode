@@ -235,7 +235,7 @@ def afficher_confirmation():
     st.markdown(
         f"""
         <div style="
-            background-color: #f8f9fa;
+            background-color: #2a2a2b;
             border: 1px solid #dee2e6;
             border-radius: 6px;
             padding: 20px;
