@@ -83,7 +83,7 @@ def create_official_pdf_bytes(data_input):
                 Nom complet : {data_input['prenom']} {data_input['nom']}<br>
                 Téléphone : {data_input['telephone']}<br>
                 Email : {data_input['email']}<br>
-                N° Courrier : {data_input['num_courrier']}
+                N° Courrier Souscription : {data_input['num_courrier']}
             </div>
         </div>
         <div class="footer">Fait à Dakar, le {current_date}</div>
@@ -186,7 +186,7 @@ def afficher_formulaire():
             ninea = st.text_input("NINEA (9 car. max) *", max_chars=9)
             email = st.text_input("Adresse e-mail *", placeholder="exemple@domaine.sn")
 
-        num_courrier = st.text_input("N° courrier / Lettre d'acceptation *")
+        num_courrier = st.text_input("N° courrier Souscription*")
 
         st.caption("Les champs marqués d'un * sont obligatoires.")
         soumettre = st.form_submit_button("Valider et prévisualiser", type="primary")
