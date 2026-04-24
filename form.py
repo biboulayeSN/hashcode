@@ -110,7 +110,7 @@ if "etape" not in st.session_state:
 # PAGE DE CONNEXION
 # ============================================================
 def afficher_connexion():
-    st.title("🇸🇳 Plateforme SENTAX - DGID")
+    st.title("Plateforme GENERATION DE CODE SENTAX - DGID")
     st.markdown("### Connexion agent")
 
     col_gauche, col_droite = st.columns([1, 1])
@@ -148,7 +148,7 @@ def afficher_bandeau_connexion():
             st.markdown(
                 f"""
                 <div style="
-                    background-color: #e8f0fe;
+                    background-color: #2a2a2b;
                     border-left: 4px solid #004a99;
                     padding: 10px 15px;
                     border-radius: 4px;
